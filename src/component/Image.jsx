@@ -36,6 +36,7 @@ export default () => {
       <Text>DefaultSource(debug env is not available)</Text>
       <Image
         source={{uri: '11111'}}
+        // 默认图片
         defaultSource={avatar}
         style={styles.img}></Image>
       <Text>onLoad and onError</Text>
@@ -66,6 +67,7 @@ export default () => {
       <Text>TiniColor</Text>
       <Image
         source={icon}
+        // 修改底色
         style={{
           tintColor: 'red',
         }}></Image>

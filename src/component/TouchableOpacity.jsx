@@ -7,7 +7,9 @@ export default () => {
         style={styles.button}
         // x~1不透明度变化范围
         activeOpacity={0.5}
-        onPress={() => {}}
+        onPress={() => {
+          console.log('pressed');
+        }}
         onLongPress={() => {}}
         // 算做长按的时间
         delayLongPress={2000}

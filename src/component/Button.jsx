@@ -3,7 +3,11 @@ import {StyleSheet, View, Button} from 'react-native';
 export default () => {
   return (
     <View style={styles.root}>
-      <Button title="button" onPress={() => {}}></Button>
+      <Button
+        title="button"
+        onPress={() => {
+          console.log('pressed');
+        }}></Button>
       <Button title="disabled" onPress={() => {}} disabled={true}></Button>
     </View>
   );
