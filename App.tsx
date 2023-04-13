@@ -25,13 +25,20 @@ import PermissionsAndroid from './src/APIs/PermissionsAndroid';
 import Vibration from './src/APIs/Vibration';
 import Keyboard from './src/APIs/Keyboard';
 // animations
-import Basic from './src/Animations/Basic';
+import AnimatedTiming from './src/Animations/AnimatedTiming';
+import Interpolate from './src/Animations/Interpolate';
+import AnimatedDecay from './src/Animations/AnimatedDecay';
+import AnimatedValueXY from './src/Animations/AnimatedValueXY';
+import AnimationCombination from './src/Animations/AnimationCombination';
+import AnimatedEvent from './src/Animations/AnimatedEvent';
+import LayoutAnimation from './src/Animations/LayoutAnimation';
+import PracticeProject from './src/Animations/PracticeProject';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
       {/* <ScrollView contentInsetAdjustmentBehavior="automatic" /> */}
-      <Basic />
+      <PracticeProject />
     </SafeAreaView>
   );
 }
