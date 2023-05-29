@@ -33,12 +33,15 @@ import AnimationCombination from './src/Animations/AnimationCombination';
 import AnimatedEvent from './src/Animations/AnimatedEvent';
 import LayoutAnimation from './src/Animations/LayoutAnimation';
 import PracticeProject from './src/Animations/PracticeProject';
+// native
+import NativePage from './src/native/NativePage';
+import NativeInfoView from './src/native/NativeInfoView';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
       {/* <ScrollView contentInsetAdjustmentBehavior="automatic" /> */}
-      <PracticeProject />
+      <NativeInfoView />
     </SafeAreaView>
   );
 }

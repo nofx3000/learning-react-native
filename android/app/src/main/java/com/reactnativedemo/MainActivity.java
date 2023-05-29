@@ -1,4 +1,4 @@
-package com.react_native_demo;
+package com.reactnativedemo;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "react_native_demo";
+    return "ReactNativeDemo";
   }
 
   /**
@@ -30,6 +30,6 @@ public class MainActivity extends ReactActivity {
         DefaultNewArchitectureEntryPoint.getFabricEnabled(), // fabricEnabled
         // If you opted-in for the New Architecture, we enable Concurrent React (i.e. React 18).
         DefaultNewArchitectureEntryPoint.getConcurrentReactEnabled() // concurrentRootEnabled
-        );
+    );
   }
 }
